@@ -1,0 +1,1811 @@
+{
+  "users": [
+    {
+      "id": "USR-ADMIN-100",
+      "email": "admin@nexusmarket.io",
+      "displayName": "Nexus Super Admin",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "phone": "01700000000",
+      "role": "admin",
+      "isVerified": true,
+      "status": "active",
+      "wallet": {
+        "availableBalance": 250000,
+        "reservedBalance": 0,
+        "pendingWithdrawal": 0,
+        "totalDeposited": 300000,
+        "totalWithdrawn": 50000,
+        "totalFeesPaid": 450,
+        "netProfit": 12450
+      },
+      "stats": {
+        "totalTrades": 42,
+        "wins": 30,
+        "losses": 12,
+        "winRate": 71.4,
+        "totalVolume": 58000
+      },
+      "referralCode": "NEXUSADMIN",
+      "createdAt": "2026-09-29T13:16:06.218Z"
+    },
+    {
+      "id": "USR-TRADER-201",
+      "email": "mdshahanurislam397@gmail.com",
+      "displayName": "Shahanur Islam (Pro Trader)",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "phone": "01812345678",
+      "role": "user",
+      "isVerified": true,
+      "status": "active",
+      "wallet": {
+        "availableBalance": 15200.52,
+        "reservedBalance": 1200,
+        "pendingWithdrawal": 0,
+        "totalDeposited": 20000,
+        "totalWithdrawn": 8000,
+        "totalFeesPaid": 323,
+        "netProfit": 3720
+      },
+      "stats": {
+        "totalTrades": 29,
+        "wins": 19,
+        "losses": 9,
+        "winRate": 67.8,
+        "totalVolume": 24699.48
+      },
+      "referralCode": "SHAHANUR",
+      "createdAt": "2026-10-14T13:16:06.218Z"
+    },
+    {
+      "id": "USR-DEMO-305",
+      "email": "tanvir.ahmed@example.com",
+      "displayName": "Tanvir Hossain",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=150&auto=format&fit=crop&q=80",
+      "phone": "01987654321",
+      "role": "user",
+      "isVerified": true,
+      "status": "active",
+      "wallet": {
+        "availableBalance": 8200,
+        "reservedBalance": 600,
+        "pendingWithdrawal": 1000,
+        "totalDeposited": 12000,
+        "totalWithdrawn": 5000,
+        "totalFeesPaid": 190,
+        "netProfit": 2190
+      },
+      "stats": {
+        "totalTrades": 16,
+        "wins": 11,
+        "losses": 5,
+        "winRate": 68.7,
+        "totalVolume": 14200
+      },
+      "referralCode": "TANVIR99",
+      "createdAt": "2026-10-19T13:16:06.218Z"
+    }
+  ],
+  "markets": [
+    {
+      "id": "MKT-CRIC-001",
+      "titleBn": "আইসিসি চ্যাম্পিয়ন্স ট্রফিতে বাংলাদেশ কি সেমিফাইনালে উঠবে?",
+      "titleEn": "Will Bangladesh reach the semifinals in the ICC Champions Trophy?",
+      "descriptionBn": "আইসিসি চ্যাম্পিয়ন্স ট্রফির গ্রুপ পর্বে শীর্ষ দুইয়ে থেকে বাংলাদেশ দল পরবর্তী পর্বে উত্তীর্ণ হবে কিনা তা এই মার্কেটের ভিত্তি।",
+      "descriptionEn": "Resolves to YES if the Bangladesh national cricket team qualifies for the semifinals of the ICC Champions Trophy.",
+      "category": "sports",
+      "imageUrl": "https://images.unsplash.com/photo-1531415074868-036b107e7752?w=600&auto=format&fit=crop&q=80",
+      "yesPrice": 0.65,
+      "noPrice": 0.35,
+      "volume": 184696.48,
+      "tradeCount": 1421,
+      "liquidity": 42000,
+      "status": "open",
+      "closingTime": "2026-11-12T13:16:06.218Z",
+      "resolutionSource": "Official ICC Results & Cricbuzz",
+      "resolutionRules": "ফলাফল ICC এর অফিসিয়াল স্কোরবোর্ড অনুযায়ী নির্ধারিত হবে। টুর্নামেন্ট বাতিল হলে রিফান্ড করা হবে।",
+      "priceHistory": [
+        {
+          "timestamp": "2026-10-28T13:16:06.218Z",
+          "yesPrice": 0.57,
+          "volume": 4513
+        },
+        {
+          "timestamp": "2026-10-28T14:16:06.218Z",
+          "yesPrice": 0.61,
+          "volume": 1592
+        },
+        {
+          "timestamp": "2026-10-28T15:16:06.218Z",
+          "yesPrice": 0.66,
+          "volume": 2331
+        },
+        {
+          "timestamp": "2026-10-28T16:16:06.218Z",
+          "yesPrice": 0.7,
+          "volume": 2558
+        },
+        {
+          "timestamp": "2026-10-28T17:16:06.218Z",
+          "yesPrice": 0.72,
+          "volume": 3243
+        },
+        {
+          "timestamp": "2026-10-28T18:16:06.218Z",
+          "yesPrice": 0.68,
+          "volume": 2818
+        },
+        {
+          "timestamp": "2026-10-28T19:16:06.218Z",
+          "yesPrice": 0.64,
+          "volume": 3922
+        },
+        {
+          "timestamp": "2026-10-28T20:16:06.218Z",
+          "yesPrice": 0.6,
+          "volume": 4208
+        },
+        {
+          "timestamp": "2026-10-28T21:16:06.218Z",
+          "yesPrice": 0.55,
+          "volume": 4337
+        },
+        {
+          "timestamp": "2026-10-28T22:16:06.218Z",
+          "yesPrice": 0.56,
+          "volume": 4680
+        },
+        {
+          "timestamp": "2026-10-28T23:16:06.218Z",
+          "yesPrice": 0.59,
+          "volume": 3330
+        },
+        {
+          "timestamp": "2026-10-29T00:16:06.218Z",
+          "yesPrice": 0.66,
+          "volume": 1708
+        },
+        {
+          "timestamp": "2026-10-29T01:16:06.218Z",
+          "yesPrice": 0.7,
+          "volume": 4010
+        },
+        {
+          "timestamp": "2026-10-29T02:16:06.218Z",
+          "yesPrice": 0.71,
+          "volume": 1824
+        },
+        {
+          "timestamp": "2026-10-29T03:16:06.218Z",
+          "yesPrice": 0.71,
+          "volume": 2537
+        },
+        {
+          "timestamp": "2026-10-29T04:16:06.218Z",
+          "yesPrice": 0.66,
+          "volume": 2774
+        },
+        {
+          "timestamp": "2026-10-29T05:16:06.218Z",
+          "yesPrice": 0.57,
+          "volume": 2802
+        },
+        {
+          "timestamp": "2026-10-29T06:16:06.218Z",
+          "yesPrice": 0.57,
+          "volume": 1473
+        },
+        {
+          "timestamp": "2026-10-29T07:16:06.218Z",
+          "yesPrice": 0.57,
+          "volume": 2552
+        },
+        {
+          "timestamp": "2026-10-29T08:16:06.218Z",
+          "yesPrice": 0.6,
+          "volume": 2745
+        },
+        {
+          "timestamp": "2026-10-29T09:16:06.218Z",
+          "yesPrice": 0.67,
+          "volume": 2286
+        },
+        {
+          "timestamp": "2026-10-29T10:16:06.218Z",
+          "yesPrice": 0.72,
+          "volume": 2775
+        },
+        {
+          "timestamp": "2026-10-29T11:16:06.218Z",
+          "yesPrice": 0.73,
+          "volume": 3585
+        },
+        {
+          "timestamp": "2026-10-29T12:16:06.218Z",
+          "yesPrice": 0.71,
+          "volume": 2118
+        },
+        {
+          "timestamp": "2026-10-29T13:16:06.218Z",
+          "yesPrice": 0.62,
+          "volume": 4550
+        },
+        {
+          "timestamp": "2026-10-29T13:16:25.796Z",
+          "yesPrice": 0.65,
+          "volume": 196.48
+        }
+      ],
+      "orderBook": {
+        "yesBids": [
+          {
+            "price": 0.63,
+            "amount": 250,
+            "total": 157.5
+          },
+          {
+            "price": 0.62,
+            "amount": 500,
+            "total": 310
+          },
+          {
+            "price": 0.6,
+            "amount": 1200,
+            "total": 720
+          },
+          {
+            "price": 0.57,
+            "amount": 2400,
+            "total": 1367.9999999999998
+          }
+        ],
+        "yesAsks": [
+          {
+            "price": 0.65,
+            "amount": 300,
+            "total": 195
+          },
+          {
+            "price": 0.67,
+            "amount": 650,
+            "total": 435.5
+          },
+          {
+            "price": 0.69,
+            "amount": 1400,
+            "total": 965.9999999999999
+          },
+          {
+            "price": 0.72,
+            "amount": 3100,
+            "total": 2232
+          }
+        ],
+        "noBids": [
+          {
+            "price": 0.35,
+            "amount": 280,
+            "total": 98
+          },
+          {
+            "price": 0.33,
+            "amount": 720,
+            "total": 237.60000000000002
+          },
+          {
+            "price": 0.31,
+            "amount": 1100,
+            "total": 341
+          }
+        ],
+        "noAsks": [
+          {
+            "price": 0.37,
+            "amount": 340,
+            "total": 125.8
+          },
+          {
+            "price": 0.39,
+            "amount": 800,
+            "total": 312
+          },
+          {
+            "price": 0.42,
+            "amount": 1600,
+            "total": 672
+          }
+        ]
+      },
+      "recentTrades": [
+        {
+          "id": "TRD-1793279785796",
+          "type": "YES",
+          "price": 0.64,
+          "amount": 307,
+          "time": "Just now",
+          "buyer": "Shahanur I."
+        },
+        {
+          "id": "T-1",
+          "type": "YES",
+          "price": 0.64,
+          "amount": 150,
+          "time": "2 mins ago",
+          "buyer": "Shahanur I."
+        },
+        {
+          "id": "T-2",
+          "type": "NO",
+          "price": 0.36,
+          "amount": 80,
+          "time": "7 mins ago",
+          "buyer": "Tanvir H."
+        },
+        {
+          "id": "T-3",
+          "type": "YES",
+          "price": 0.63,
+          "amount": 300,
+          "time": "14 mins ago",
+          "buyer": "Rakib07"
+        }
+      ],
+      "createdAt": "2026-10-24T13:16:06.218Z",
+      "totalYesPool": 118276.48,
+      "totalNoPool": 66420
+    },
+    {
+      "id": "MKT-CRYPTO-002",
+      "titleBn": "২০২৬ সালের ডিসেম্বরের পূর্বে বিটকয়েন কি $120,000 স্পর্শ করবে?",
+      "titleEn": "Will Bitcoin reach $120,000 before December 2026?",
+      "descriptionBn": "Binance ও Coinbase এক্সচেঞ্জে বিটকয়েনের মূল্য নির্ধারিত সময়ের মধ্যে $120,000 স্পর্শ করলে YES জয়ী হবে।",
+      "descriptionEn": "Resolves to YES if BTC/USD trades at or above $120,000 on Binance or Coinbase at any moment before the deadline.",
+      "category": "crypto",
+      "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80",
+      "yesPrice": 0.72,
+      "noPrice": 0.28,
+      "volume": 342000,
+      "tradeCount": 2890,
+      "liquidity": 95000,
+      "status": "open",
+      "closingTime": "2026-12-13T13:16:06.218Z",
+      "resolutionSource": "CoinGecko / Binance Index",
+      "resolutionRules": "বাইনান্স অথবা কয়েনগেকোতে স্পট মূল্যে ন্যূনতম একটি ভ্যালিড ট্রেড $120k পৌঁছালেই YES নির্ধারিত হবে।",
+      "priceHistory": [
+        {
+          "timestamp": "2026-10-28T13:16:06.218Z",
+          "yesPrice": 0.66,
+          "volume": 2580
+        },
+        {
+          "timestamp": "2026-10-28T14:16:06.218Z",
+          "yesPrice": 0.67,
+          "volume": 2364
+        },
+        {
+          "timestamp": "2026-10-28T15:16:06.218Z",
+          "yesPrice": 0.75,
+          "volume": 4335
+        },
+        {
+          "timestamp": "2026-10-28T16:16:06.218Z",
+          "yesPrice": 0.8,
+          "volume": 2783
+        },
+        {
+          "timestamp": "2026-10-28T17:16:06.218Z",
+          "yesPrice": 0.81,
+          "volume": 3581
+        },
+        {
+          "timestamp": "2026-10-28T18:16:06.218Z",
+          "yesPrice": 0.79,
+          "volume": 4448
+        },
+        {
+          "timestamp": "2026-10-28T19:16:06.218Z",
+          "yesPrice": 0.71,
+          "volume": 2037
+        },
+        {
+          "timestamp": "2026-10-28T20:16:06.218Z",
+          "yesPrice": 0.67,
+          "volume": 2589
+        },
+        {
+          "timestamp": "2026-10-28T21:16:06.218Z",
+          "yesPrice": 0.66,
+          "volume": 4100
+        },
+        {
+          "timestamp": "2026-10-28T22:16:06.218Z",
+          "yesPrice": 0.63,
+          "volume": 1964
+        },
+        {
+          "timestamp": "2026-10-28T23:16:06.218Z",
+          "yesPrice": 0.67,
+          "volume": 4130
+        },
+        {
+          "timestamp": "2026-10-29T00:16:06.218Z",
+          "yesPrice": 0.75,
+          "volume": 3722
+        },
+        {
+          "timestamp": "2026-10-29T01:16:06.218Z",
+          "yesPrice": 0.77,
+          "volume": 2130
+        },
+        {
+          "timestamp": "2026-10-29T02:16:06.218Z",
+          "yesPrice": 0.79,
+          "volume": 3299
+        },
+        {
+          "timestamp": "2026-10-29T03:16:06.218Z",
+          "yesPrice": 0.79,
+          "volume": 4214
+        },
+        {
+          "timestamp": "2026-10-29T04:16:06.218Z",
+          "yesPrice": 0.71,
+          "volume": 1639
+        },
+        {
+          "timestamp": "2026-10-29T05:16:06.218Z",
+          "yesPrice": 0.67,
+          "volume": 1307
+        },
+        {
+          "timestamp": "2026-10-29T06:16:06.218Z",
+          "yesPrice": 0.65,
+          "volume": 4517
+        },
+        {
+          "timestamp": "2026-10-29T07:16:06.218Z",
+          "yesPrice": 0.64,
+          "volume": 4565
+        },
+        {
+          "timestamp": "2026-10-29T08:16:06.218Z",
+          "yesPrice": 0.7,
+          "volume": 2580
+        },
+        {
+          "timestamp": "2026-10-29T09:16:06.218Z",
+          "yesPrice": 0.75,
+          "volume": 4556
+        },
+        {
+          "timestamp": "2026-10-29T10:16:06.218Z",
+          "yesPrice": 0.78,
+          "volume": 1479
+        },
+        {
+          "timestamp": "2026-10-29T11:16:06.218Z",
+          "yesPrice": 0.8,
+          "volume": 3160
+        },
+        {
+          "timestamp": "2026-10-29T12:16:06.218Z",
+          "yesPrice": 0.76,
+          "volume": 1246
+        },
+        {
+          "timestamp": "2026-10-29T13:16:06.218Z",
+          "yesPrice": 0.72,
+          "volume": 1281
+        }
+      ],
+      "orderBook": {
+        "yesBids": [
+          {
+            "price": 0.71,
+            "amount": 250,
+            "total": 177.5
+          },
+          {
+            "price": 0.7,
+            "amount": 500,
+            "total": 350
+          },
+          {
+            "price": 0.68,
+            "amount": 1200,
+            "total": 816.0000000000001
+          },
+          {
+            "price": 0.65,
+            "amount": 2400,
+            "total": 1560
+          }
+        ],
+        "yesAsks": [
+          {
+            "price": 0.73,
+            "amount": 300,
+            "total": 219
+          },
+          {
+            "price": 0.75,
+            "amount": 650,
+            "total": 487.5
+          },
+          {
+            "price": 0.77,
+            "amount": 1400,
+            "total": 1078
+          },
+          {
+            "price": 0.8,
+            "amount": 3100,
+            "total": 2480
+          }
+        ],
+        "noBids": [
+          {
+            "price": 0.27,
+            "amount": 280,
+            "total": 75.60000000000001
+          },
+          {
+            "price": 0.25,
+            "amount": 720,
+            "total": 180
+          },
+          {
+            "price": 0.23,
+            "amount": 1100,
+            "total": 253
+          }
+        ],
+        "noAsks": [
+          {
+            "price": 0.29,
+            "amount": 340,
+            "total": 98.6
+          },
+          {
+            "price": 0.31,
+            "amount": 800,
+            "total": 248
+          },
+          {
+            "price": 0.34,
+            "amount": 1600,
+            "total": 544
+          }
+        ]
+      },
+      "recentTrades": [
+        {
+          "id": "T-4",
+          "type": "YES",
+          "price": 0.72,
+          "amount": 500,
+          "time": "1 min ago",
+          "buyer": "CryptoWhale"
+        },
+        {
+          "id": "T-5",
+          "type": "YES",
+          "price": 0.71,
+          "amount": 250,
+          "time": "5 mins ago",
+          "buyer": "Sifat K."
+        },
+        {
+          "id": "T-6",
+          "type": "NO",
+          "price": 0.29,
+          "amount": 100,
+          "time": "12 mins ago",
+          "buyer": "HedgeFundBD"
+        }
+      ],
+      "createdAt": "2026-10-17T13:16:06.219Z",
+      "totalYesPool": 246240,
+      "totalNoPool": 95760
+    },
+    {
+      "id": "MKT-TECH-003",
+      "titleBn": "গুগল কি চলতি ত্রৈমাসিকে Gemini 3.0 ফুল রিলিজ ঘোষণা করবে?",
+      "titleEn": "Will Google announce Gemini 3.0 general availability this quarter?",
+      "descriptionBn": "গুগল তাদের অফিশিয়াল কি-নোট বা ব্লগে Gemini 3.0 সাধারণ ব্যবহারকারীদের জন্য উন্মুক্ত করলে YES হবে।",
+      "descriptionEn": "Resolves to YES if Google officially launches Gemini 3.0 GA during this quarter.",
+      "category": "technology",
+      "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+      "yesPrice": 0.58,
+      "noPrice": 0.42,
+      "volume": 128900,
+      "tradeCount": 940,
+      "liquidity": 38000,
+      "status": "open",
+      "closingTime": "2026-11-18T13:16:06.219Z",
+      "resolutionSource": "Google Official Blog / Keynote",
+      "resolutionRules": "গুগলের ভেরিফায়েড প্রেস রিলিজের ভিত্তিতে মার্কেট নির্ধারিত হবে।",
+      "priceHistory": [
+        {
+          "timestamp": "2026-10-28T13:16:06.219Z",
+          "yesPrice": 0.51,
+          "volume": 1564
+        },
+        {
+          "timestamp": "2026-10-28T14:16:06.219Z",
+          "yesPrice": 0.55,
+          "volume": 4299
+        },
+        {
+          "timestamp": "2026-10-28T15:16:06.219Z",
+          "yesPrice": 0.59,
+          "volume": 4060
+        },
+        {
+          "timestamp": "2026-10-28T16:16:06.219Z",
+          "yesPrice": 0.64,
+          "volume": 4147
+        },
+        {
+          "timestamp": "2026-10-28T17:16:06.219Z",
+          "yesPrice": 0.67,
+          "volume": 2934
+        },
+        {
+          "timestamp": "2026-10-28T18:16:06.219Z",
+          "yesPrice": 0.62,
+          "volume": 3990
+        },
+        {
+          "timestamp": "2026-10-28T19:16:06.219Z",
+          "yesPrice": 0.6,
+          "volume": 1440
+        },
+        {
+          "timestamp": "2026-10-28T20:16:06.219Z",
+          "yesPrice": 0.52,
+          "volume": 3883
+        },
+        {
+          "timestamp": "2026-10-28T21:16:06.219Z",
+          "yesPrice": 0.49,
+          "volume": 2750
+        },
+        {
+          "timestamp": "2026-10-28T22:16:06.219Z",
+          "yesPrice": 0.53,
+          "volume": 3191
+        },
+        {
+          "timestamp": "2026-10-28T23:16:06.219Z",
+          "yesPrice": 0.54,
+          "volume": 4272
+        },
+        {
+          "timestamp": "2026-10-29T00:16:06.219Z",
+          "yesPrice": 0.62,
+          "volume": 3630
+        },
+        {
+          "timestamp": "2026-10-29T01:16:06.219Z",
+          "yesPrice": 0.66,
+          "volume": 1248
+        },
+        {
+          "timestamp": "2026-10-29T02:16:06.219Z",
+          "yesPrice": 0.68,
+          "volume": 2496
+        },
+        {
+          "timestamp": "2026-10-29T03:16:06.219Z",
+          "yesPrice": 0.64,
+          "volume": 1878
+        },
+        {
+          "timestamp": "2026-10-29T04:16:06.219Z",
+          "yesPrice": 0.57,
+          "volume": 2987
+        },
+        {
+          "timestamp": "2026-10-29T05:16:06.219Z",
+          "yesPrice": 0.52,
+          "volume": 1875
+        },
+        {
+          "timestamp": "2026-10-29T06:16:06.219Z",
+          "yesPrice": 0.5,
+          "volume": 3937
+        },
+        {
+          "timestamp": "2026-10-29T07:16:06.219Z",
+          "yesPrice": 0.5,
+          "volume": 2155
+        },
+        {
+          "timestamp": "2026-10-29T08:16:06.219Z",
+          "yesPrice": 0.55,
+          "volume": 4607
+        },
+        {
+          "timestamp": "2026-10-29T09:16:06.219Z",
+          "yesPrice": 0.6,
+          "volume": 3839
+        },
+        {
+          "timestamp": "2026-10-29T10:16:06.219Z",
+          "yesPrice": 0.65,
+          "volume": 3043
+        },
+        {
+          "timestamp": "2026-10-29T11:16:06.219Z",
+          "yesPrice": 0.66,
+          "volume": 1995
+        },
+        {
+          "timestamp": "2026-10-29T12:16:06.219Z",
+          "yesPrice": 0.62,
+          "volume": 1982
+        },
+        {
+          "timestamp": "2026-10-29T13:16:06.219Z",
+          "yesPrice": 0.57,
+          "volume": 2972
+        }
+      ],
+      "orderBook": {
+        "yesBids": [
+          {
+            "price": 0.57,
+            "amount": 250,
+            "total": 142.5
+          },
+          {
+            "price": 0.56,
+            "amount": 500,
+            "total": 280
+          },
+          {
+            "price": 0.54,
+            "amount": 1200,
+            "total": 648
+          },
+          {
+            "price": 0.51,
+            "amount": 2400,
+            "total": 1224
+          }
+        ],
+        "yesAsks": [
+          {
+            "price": 0.59,
+            "amount": 300,
+            "total": 177
+          },
+          {
+            "price": 0.61,
+            "amount": 650,
+            "total": 396.5
+          },
+          {
+            "price": 0.63,
+            "amount": 1400,
+            "total": 882
+          },
+          {
+            "price": 0.66,
+            "amount": 3100,
+            "total": 2046
+          }
+        ],
+        "noBids": [
+          {
+            "price": 0.41,
+            "amount": 280,
+            "total": 114.8
+          },
+          {
+            "price": 0.39,
+            "amount": 720,
+            "total": 280.8
+          },
+          {
+            "price": 0.37,
+            "amount": 1100,
+            "total": 407
+          }
+        ],
+        "noAsks": [
+          {
+            "price": 0.43,
+            "amount": 340,
+            "total": 146.2
+          },
+          {
+            "price": 0.45,
+            "amount": 800,
+            "total": 360
+          },
+          {
+            "price": 0.48,
+            "amount": 1600,
+            "total": 768
+          }
+        ]
+      },
+      "recentTrades": [
+        {
+          "id": "T-7",
+          "type": "NO",
+          "price": 0.42,
+          "amount": 200,
+          "time": "3 mins ago",
+          "buyer": "AI_Dev"
+        },
+        {
+          "id": "T-8",
+          "type": "YES",
+          "price": 0.58,
+          "amount": 400,
+          "time": "9 mins ago",
+          "buyer": "TechBD"
+        }
+      ],
+      "createdAt": "2026-10-22T13:16:06.219Z",
+      "totalYesPool": 74762,
+      "totalNoPool": 54138
+    },
+    {
+      "id": "MKT-FOOT-004",
+      "titleBn": "উয়েফা চ্যাম্পিয়ন্স লিগ ফাইনালে কি রিয়াল মাদ্রিদ জয়ী হবে?",
+      "titleEn": "Will Real Madrid win the UEFA Champions League Final?",
+      "descriptionBn": "চলতি আসরে রিয়াল মাদ্রিদ চ্যাম্পিয়ন্স লিগ শিরোপা জিতলে YES ফলাফল হিসেবে পরিগণিত হবে।",
+      "descriptionEn": "Resolves to YES if Real Madrid CF lifts the UEFA Champions League trophy.",
+      "category": "sports",
+      "imageUrl": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=600&auto=format&fit=crop&q=80",
+      "yesPrice": 0.48,
+      "noPrice": 0.52,
+      "volume": 215000,
+      "tradeCount": 1680,
+      "liquidity": 52000,
+      "status": "open",
+      "closingTime": "2026-12-03T13:16:06.219Z",
+      "resolutionSource": "UEFA.com Official",
+      "resolutionRules": "অফিসিয়াল ট্রফি প্রেজেন্টেশন এবং উয়েফা ম্যাচ রিপোর্টের ওপর ভিত্তি করে মীমাংসা করা হবে।",
+      "priceHistory": [
+        {
+          "timestamp": "2026-10-28T13:16:06.219Z",
+          "yesPrice": 0.43,
+          "volume": 3385
+        },
+        {
+          "timestamp": "2026-10-28T14:16:06.219Z",
+          "yesPrice": 0.45,
+          "volume": 4434
+        },
+        {
+          "timestamp": "2026-10-28T15:16:06.219Z",
+          "yesPrice": 0.51,
+          "volume": 2581
+        },
+        {
+          "timestamp": "2026-10-28T16:16:06.219Z",
+          "yesPrice": 0.54,
+          "volume": 1670
+        },
+        {
+          "timestamp": "2026-10-28T17:16:06.219Z",
+          "yesPrice": 0.55,
+          "volume": 1529
+        },
+        {
+          "timestamp": "2026-10-28T18:16:06.219Z",
+          "yesPrice": 0.53,
+          "volume": 4503
+        },
+        {
+          "timestamp": "2026-10-28T19:16:06.219Z",
+          "yesPrice": 0.46,
+          "volume": 3312
+        },
+        {
+          "timestamp": "2026-10-28T20:16:06.219Z",
+          "yesPrice": 0.43,
+          "volume": 3511
+        },
+        {
+          "timestamp": "2026-10-28T21:16:06.219Z",
+          "yesPrice": 0.39,
+          "volume": 2800
+        },
+        {
+          "timestamp": "2026-10-28T22:16:06.219Z",
+          "yesPrice": 0.42,
+          "volume": 4497
+        },
+        {
+          "timestamp": "2026-10-28T23:16:06.219Z",
+          "yesPrice": 0.44,
+          "volume": 4031
+        },
+        {
+          "timestamp": "2026-10-29T00:16:06.219Z",
+          "yesPrice": 0.51,
+          "volume": 2531
+        },
+        {
+          "timestamp": "2026-10-29T01:16:06.219Z",
+          "yesPrice": 0.57,
+          "volume": 3363
+        },
+        {
+          "timestamp": "2026-10-29T02:16:06.219Z",
+          "yesPrice": 0.58,
+          "volume": 3081
+        },
+        {
+          "timestamp": "2026-10-29T03:16:06.219Z",
+          "yesPrice": 0.55,
+          "volume": 3249
+        },
+        {
+          "timestamp": "2026-10-29T04:16:06.219Z",
+          "yesPrice": 0.49,
+          "volume": 3358
+        },
+        {
+          "timestamp": "2026-10-29T05:16:06.219Z",
+          "yesPrice": 0.43,
+          "volume": 4490
+        },
+        {
+          "timestamp": "2026-10-29T06:16:06.219Z",
+          "yesPrice": 0.42,
+          "volume": 1233
+        },
+        {
+          "timestamp": "2026-10-29T07:16:06.219Z",
+          "yesPrice": 0.42,
+          "volume": 4537
+        },
+        {
+          "timestamp": "2026-10-29T08:16:06.219Z",
+          "yesPrice": 0.44,
+          "volume": 1875
+        },
+        {
+          "timestamp": "2026-10-29T09:16:06.219Z",
+          "yesPrice": 0.49,
+          "volume": 3876
+        },
+        {
+          "timestamp": "2026-10-29T10:16:06.219Z",
+          "yesPrice": 0.53,
+          "volume": 1403
+        },
+        {
+          "timestamp": "2026-10-29T11:16:06.219Z",
+          "yesPrice": 0.55,
+          "volume": 1701
+        },
+        {
+          "timestamp": "2026-10-29T12:16:06.219Z",
+          "yesPrice": 0.54,
+          "volume": 3745
+        },
+        {
+          "timestamp": "2026-10-29T13:16:06.219Z",
+          "yesPrice": 0.46,
+          "volume": 3527
+        }
+      ],
+      "orderBook": {
+        "yesBids": [
+          {
+            "price": 0.47,
+            "amount": 250,
+            "total": 117.5
+          },
+          {
+            "price": 0.46,
+            "amount": 500,
+            "total": 230
+          },
+          {
+            "price": 0.44,
+            "amount": 1200,
+            "total": 528
+          },
+          {
+            "price": 0.41,
+            "amount": 2400,
+            "total": 983.9999999999999
+          }
+        ],
+        "yesAsks": [
+          {
+            "price": 0.49,
+            "amount": 300,
+            "total": 147
+          },
+          {
+            "price": 0.51,
+            "amount": 650,
+            "total": 331.5
+          },
+          {
+            "price": 0.53,
+            "amount": 1400,
+            "total": 742
+          },
+          {
+            "price": 0.56,
+            "amount": 3100,
+            "total": 1736.0000000000002
+          }
+        ],
+        "noBids": [
+          {
+            "price": 0.51,
+            "amount": 280,
+            "total": 142.8
+          },
+          {
+            "price": 0.49,
+            "amount": 720,
+            "total": 352.8
+          },
+          {
+            "price": 0.47,
+            "amount": 1100,
+            "total": 517
+          }
+        ],
+        "noAsks": [
+          {
+            "price": 0.53,
+            "amount": 340,
+            "total": 180.20000000000002
+          },
+          {
+            "price": 0.55,
+            "amount": 800,
+            "total": 440.00000000000006
+          },
+          {
+            "price": 0.58,
+            "amount": 1600,
+            "total": 927.9999999999999
+          }
+        ]
+      },
+      "recentTrades": [
+        {
+          "id": "T-9",
+          "type": "NO",
+          "price": 0.52,
+          "amount": 150,
+          "time": "6 mins ago",
+          "buyer": "BarcaFan"
+        },
+        {
+          "id": "T-10",
+          "type": "YES",
+          "price": 0.48,
+          "amount": 350,
+          "time": "11 mins ago",
+          "buyer": "Madridista"
+        }
+      ],
+      "createdAt": "2026-10-20T13:16:06.219Z",
+      "totalYesPool": 103200,
+      "totalNoPool": 111800
+    },
+    {
+      "id": "MKT-NEWS-005",
+      "titleBn": "বাংলাদেশে কি আগামী অর্থবছরে বৈদেশিক মুদ্রার রিজার্ভ $২৫ বিলিয়ন অতিক্রম করবে?",
+      "titleEn": "Will Bangladesh FX reserves surpass $25 Billion in the next fiscal quarter?",
+      "descriptionBn": "বাংলাদেশ ব্যাংকের অফিসিয়াল রিপোর্টে নেট রিজার্ভ ২৫ বিলিয়ন মার্কিন ডলার অতিক্রম করলে YES হবে।",
+      "descriptionEn": "Resolves to YES if Bangladesh Bank officially reports forex reserves > $25B in upcoming publication.",
+      "category": "business",
+      "imageUrl": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=600&auto=format&fit=crop&q=80",
+      "yesPrice": 0.39,
+      "noPrice": 0.61,
+      "volume": 98000,
+      "tradeCount": 680,
+      "liquidity": 27000,
+      "status": "open",
+      "closingTime": "2026-12-28T13:16:06.219Z",
+      "resolutionSource": "Bangladesh Bank Official Data",
+      "resolutionRules": "বাংলাদেশ ব্যাংকের ওয়েবসাইটে প্রকাশিত মাসিক স্ট্যাটিস্টিক্যাল বুলেটিনের তথ্যানুযায়ী।",
+      "priceHistory": [
+        {
+          "timestamp": "2026-10-28T13:16:06.219Z",
+          "yesPrice": 0.32,
+          "volume": 4645
+        },
+        {
+          "timestamp": "2026-10-28T14:16:06.219Z",
+          "yesPrice": 0.35,
+          "volume": 2168
+        },
+        {
+          "timestamp": "2026-10-28T15:16:06.219Z",
+          "yesPrice": 0.41,
+          "volume": 2602
+        },
+        {
+          "timestamp": "2026-10-28T16:16:06.219Z",
+          "yesPrice": 0.46,
+          "volume": 4511
+        },
+        {
+          "timestamp": "2026-10-28T17:16:06.219Z",
+          "yesPrice": 0.49,
+          "volume": 3386
+        },
+        {
+          "timestamp": "2026-10-28T18:16:06.219Z",
+          "yesPrice": 0.45,
+          "volume": 1991
+        },
+        {
+          "timestamp": "2026-10-28T19:16:06.219Z",
+          "yesPrice": 0.38,
+          "volume": 1453
+        },
+        {
+          "timestamp": "2026-10-28T20:16:06.219Z",
+          "yesPrice": 0.33,
+          "volume": 3614
+        },
+        {
+          "timestamp": "2026-10-28T21:16:06.219Z",
+          "yesPrice": 0.32,
+          "volume": 1533
+        },
+        {
+          "timestamp": "2026-10-28T22:16:06.219Z",
+          "yesPrice": 0.31,
+          "volume": 2670
+        },
+        {
+          "timestamp": "2026-10-28T23:16:06.219Z",
+          "yesPrice": 0.34,
+          "volume": 2590
+        },
+        {
+          "timestamp": "2026-10-29T00:16:06.219Z",
+          "yesPrice": 0.4,
+          "volume": 2899
+        },
+        {
+          "timestamp": "2026-10-29T01:16:06.219Z",
+          "yesPrice": 0.45,
+          "volume": 1788
+        },
+        {
+          "timestamp": "2026-10-29T02:16:06.219Z",
+          "yesPrice": 0.47,
+          "volume": 2935
+        },
+        {
+          "timestamp": "2026-10-29T03:16:06.219Z",
+          "yesPrice": 0.45,
+          "volume": 2857
+        },
+        {
+          "timestamp": "2026-10-29T04:16:06.219Z",
+          "yesPrice": 0.39,
+          "volume": 1655
+        },
+        {
+          "timestamp": "2026-10-29T05:16:06.219Z",
+          "yesPrice": 0.32,
+          "volume": 1436
+        },
+        {
+          "timestamp": "2026-10-29T06:16:06.219Z",
+          "yesPrice": 0.32,
+          "volume": 1635
+        },
+        {
+          "timestamp": "2026-10-29T07:16:06.219Z",
+          "yesPrice": 0.31,
+          "volume": 4311
+        },
+        {
+          "timestamp": "2026-10-29T08:16:06.219Z",
+          "yesPrice": 0.35,
+          "volume": 2028
+        },
+        {
+          "timestamp": "2026-10-29T09:16:06.219Z",
+          "yesPrice": 0.42,
+          "volume": 2181
+        },
+        {
+          "timestamp": "2026-10-29T10:16:06.219Z",
+          "yesPrice": 0.46,
+          "volume": 2835
+        },
+        {
+          "timestamp": "2026-10-29T11:16:06.219Z",
+          "yesPrice": 0.49,
+          "volume": 1509
+        },
+        {
+          "timestamp": "2026-10-29T12:16:06.219Z",
+          "yesPrice": 0.45,
+          "volume": 1378
+        },
+        {
+          "timestamp": "2026-10-29T13:16:06.219Z",
+          "yesPrice": 0.41,
+          "volume": 2350
+        }
+      ],
+      "orderBook": {
+        "yesBids": [
+          {
+            "price": 0.38,
+            "amount": 250,
+            "total": 95
+          },
+          {
+            "price": 0.37,
+            "amount": 500,
+            "total": 185
+          },
+          {
+            "price": 0.35,
+            "amount": 1200,
+            "total": 420
+          },
+          {
+            "price": 0.32,
+            "amount": 2400,
+            "total": 768
+          }
+        ],
+        "yesAsks": [
+          {
+            "price": 0.4,
+            "amount": 300,
+            "total": 120
+          },
+          {
+            "price": 0.42,
+            "amount": 650,
+            "total": 273
+          },
+          {
+            "price": 0.44,
+            "amount": 1400,
+            "total": 616
+          },
+          {
+            "price": 0.47,
+            "amount": 3100,
+            "total": 1457
+          }
+        ],
+        "noBids": [
+          {
+            "price": 0.6,
+            "amount": 280,
+            "total": 168
+          },
+          {
+            "price": 0.58,
+            "amount": 720,
+            "total": 417.59999999999997
+          },
+          {
+            "price": 0.56,
+            "amount": 1100,
+            "total": 616.0000000000001
+          }
+        ],
+        "noAsks": [
+          {
+            "price": 0.62,
+            "amount": 340,
+            "total": 210.8
+          },
+          {
+            "price": 0.64,
+            "amount": 800,
+            "total": 512
+          },
+          {
+            "price": 0.67,
+            "amount": 1600,
+            "total": 1072
+          }
+        ]
+      },
+      "recentTrades": [
+        {
+          "id": "T-11",
+          "type": "NO",
+          "price": 0.61,
+          "amount": 500,
+          "time": "15 mins ago",
+          "buyer": "EconObserver"
+        }
+      ],
+      "createdAt": "2026-10-25T13:16:06.219Z",
+      "totalYesPool": 38220,
+      "totalNoPool": 59780
+    },
+    {
+      "id": "MKT-POL-006",
+      "titleBn": "যুক্তরাজ্য কি আগামী নির্বাচনে ইউরোপীয় ইউনিয়নের সাথে নতুন বাণিজ্য চুক্তি চূড়ান্ত করবে?",
+      "titleEn": "Will the UK finalize a major new trade treaty with the EU this term?",
+      "descriptionBn": "যুক্তরাজ্য ও ইউরোপীয় কমিশনের মধ্যে দ্বিপাক্ষিক সমন্বিত চুক্তি স্বাক্ষরিত হলে YES হিসেবে নিষ্পত্তি হবে।",
+      "descriptionEn": "Resolves to YES if a comprehensive trade accord is formally signed by UK & EU officials.",
+      "category": "politics",
+      "imageUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=600&auto=format&fit=crop&q=80",
+      "yesPrice": 0.51,
+      "noPrice": 0.49,
+      "volume": 112000,
+      "tradeCount": 820,
+      "liquidity": 31000,
+      "status": "open",
+      "closingTime": "2026-12-18T13:16:06.219Z",
+      "resolutionSource": "BBC News / Reuters Official Reports",
+      "resolutionRules": "উভয় পক্ষের স্বাক্ষর ও সরকারি বিবৃতি বাধ্যতামূলক।",
+      "priceHistory": [
+        {
+          "timestamp": "2026-10-28T13:16:06.219Z",
+          "yesPrice": 0.44,
+          "volume": 2322
+        },
+        {
+          "timestamp": "2026-10-28T14:16:06.219Z",
+          "yesPrice": 0.47,
+          "volume": 3757
+        },
+        {
+          "timestamp": "2026-10-28T15:16:06.219Z",
+          "yesPrice": 0.52,
+          "volume": 3574
+        },
+        {
+          "timestamp": "2026-10-28T16:16:06.219Z",
+          "yesPrice": 0.59,
+          "volume": 2898
+        },
+        {
+          "timestamp": "2026-10-28T17:16:06.219Z",
+          "yesPrice": 0.59,
+          "volume": 4132
+        },
+        {
+          "timestamp": "2026-10-28T18:16:06.219Z",
+          "yesPrice": 0.58,
+          "volume": 1352
+        },
+        {
+          "timestamp": "2026-10-28T19:16:06.219Z",
+          "yesPrice": 0.52,
+          "volume": 3716
+        },
+        {
+          "timestamp": "2026-10-28T20:16:06.219Z",
+          "yesPrice": 0.45,
+          "volume": 1604
+        },
+        {
+          "timestamp": "2026-10-28T21:16:06.219Z",
+          "yesPrice": 0.42,
+          "volume": 3634
+        },
+        {
+          "timestamp": "2026-10-28T22:16:06.219Z",
+          "yesPrice": 0.42,
+          "volume": 2951
+        },
+        {
+          "timestamp": "2026-10-28T23:16:06.219Z",
+          "yesPrice": 0.46,
+          "volume": 3032
+        },
+        {
+          "timestamp": "2026-10-29T00:16:06.219Z",
+          "yesPrice": 0.52,
+          "volume": 2548
+        },
+        {
+          "timestamp": "2026-10-29T01:16:06.219Z",
+          "yesPrice": 0.56,
+          "volume": 2715
+        },
+        {
+          "timestamp": "2026-10-29T02:16:06.219Z",
+          "yesPrice": 0.61,
+          "volume": 2558
+        },
+        {
+          "timestamp": "2026-10-29T03:16:06.219Z",
+          "yesPrice": 0.57,
+          "volume": 3860
+        },
+        {
+          "timestamp": "2026-10-29T04:16:06.219Z",
+          "yesPrice": 0.5,
+          "volume": 1594
+        },
+        {
+          "timestamp": "2026-10-29T05:16:06.219Z",
+          "yesPrice": 0.45,
+          "volume": 2955
+        },
+        {
+          "timestamp": "2026-10-29T06:16:06.219Z",
+          "yesPrice": 0.44,
+          "volume": 1650
+        },
+        {
+          "timestamp": "2026-10-29T07:16:06.219Z",
+          "yesPrice": 0.44,
+          "volume": 1529
+        },
+        {
+          "timestamp": "2026-10-29T08:16:06.219Z",
+          "yesPrice": 0.49,
+          "volume": 3181
+        },
+        {
+          "timestamp": "2026-10-29T09:16:06.219Z",
+          "yesPrice": 0.55,
+          "volume": 1525
+        },
+        {
+          "timestamp": "2026-10-29T10:16:06.219Z",
+          "yesPrice": 0.56,
+          "volume": 4432
+        },
+        {
+          "timestamp": "2026-10-29T11:16:06.219Z",
+          "yesPrice": 0.57,
+          "volume": 3884
+        },
+        {
+          "timestamp": "2026-10-29T12:16:06.219Z",
+          "yesPrice": 0.57,
+          "volume": 2352
+        },
+        {
+          "timestamp": "2026-10-29T13:16:06.219Z",
+          "yesPrice": 0.53,
+          "volume": 2725
+        }
+      ],
+      "orderBook": {
+        "yesBids": [
+          {
+            "price": 0.5,
+            "amount": 250,
+            "total": 125
+          },
+          {
+            "price": 0.49,
+            "amount": 500,
+            "total": 245
+          },
+          {
+            "price": 0.47,
+            "amount": 1200,
+            "total": 564
+          },
+          {
+            "price": 0.44,
+            "amount": 2400,
+            "total": 1056
+          }
+        ],
+        "yesAsks": [
+          {
+            "price": 0.52,
+            "amount": 300,
+            "total": 156
+          },
+          {
+            "price": 0.54,
+            "amount": 650,
+            "total": 351
+          },
+          {
+            "price": 0.56,
+            "amount": 1400,
+            "total": 784.0000000000001
+          },
+          {
+            "price": 0.59,
+            "amount": 3100,
+            "total": 1829
+          }
+        ],
+        "noBids": [
+          {
+            "price": 0.48,
+            "amount": 280,
+            "total": 134.4
+          },
+          {
+            "price": 0.46,
+            "amount": 720,
+            "total": 331.2
+          },
+          {
+            "price": 0.44,
+            "amount": 1100,
+            "total": 484
+          }
+        ],
+        "noAsks": [
+          {
+            "price": 0.5,
+            "amount": 340,
+            "total": 170
+          },
+          {
+            "price": 0.52,
+            "amount": 800,
+            "total": 416
+          },
+          {
+            "price": 0.55,
+            "amount": 1600,
+            "total": 880.0000000000001
+          }
+        ]
+      },
+      "recentTrades": [
+        {
+          "id": "T-12",
+          "type": "YES",
+          "price": 0.51,
+          "amount": 200,
+          "time": "20 mins ago",
+          "buyer": "GlobalGov"
+        }
+      ],
+      "createdAt": "2026-10-26T13:16:06.219Z",
+      "totalYesPool": 57120,
+      "totalNoPool": 54880
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1793279785795-620",
+      "userId": "USR-TRADER-201",
+      "userName": "Shahanur Islam (Pro Trader)",
+      "marketId": "MKT-CRIC-001",
+      "marketTitle": "Will Bangladesh reach the semifinals in the ICC Champions Trophy?",
+      "outcome": "YES",
+      "type": "market",
+      "side": "buy",
+      "price": 0.64,
+      "quantity": 307,
+      "filledQuantity": 307,
+      "totalCost": 199.48,
+      "fee": 3,
+      "status": "filled",
+      "createdAt": "2026-10-29T13:16:25.795Z",
+      "updatedAt": "2026-10-29T13:16:25.795Z"
+    }
+  ],
+  "positions": [
+    {
+      "id": "POS-001",
+      "userId": "USR-TRADER-201",
+      "marketId": "MKT-CRIC-001",
+      "outcome": "YES",
+      "shares": 507,
+      "avgPrice": 0.6242,
+      "totalInvested": 316.48,
+      "currentValue": 324.48,
+      "unrealizedPnl": 8,
+      "realizedPnl": 0,
+      "isSettled": false,
+      "status": "active",
+      "createdAt": "2026-10-29T01:16:06.219Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN-1793279785797-308",
+      "userId": "USR-TRADER-201",
+      "userName": "Shahanur Islam (Pro Trader)",
+      "type": "trade_buy",
+      "amount": 199.48,
+      "fee": 3,
+      "balanceAfter": 15200.52,
+      "status": "completed",
+      "referenceId": "ORD-1793279785795-620",
+      "descriptionBn": "মার্কেট ট্রেড: আইসিসি চ্যাম্পিয়ন্স ট্রফিতে বাং... (YES 307 শেয়ার)",
+      "descriptionEn": "Bought 307 YES shares at 64% on Will Bangladesh reach the semifi...",
+      "timestamp": "2026-10-29T13:16:25.797Z"
+    },
+    {
+      "id": "TXN-001",
+      "userId": "USR-TRADER-201",
+      "userName": "Shahanur Islam (Pro Trader)",
+      "type": "deposit",
+      "amount": 5000,
+      "fee": 0,
+      "balanceAfter": 15400,
+      "status": "completed",
+      "referenceId": "DEP-8901",
+      "descriptionBn": "বিকাশ ডিপোজিট সফল (TrxID: BK9A87X41Q)",
+      "descriptionEn": "bKash Deposit Approved (TrxID: BK9A87X41Q)",
+      "timestamp": "2026-10-27T14:16:06.219Z"
+    },
+    {
+      "id": "TXN-002",
+      "userId": "USR-TRADER-201",
+      "userName": "Shahanur Islam (Pro Trader)",
+      "type": "trade_buy",
+      "amount": 1200,
+      "fee": 18,
+      "balanceAfter": 14182,
+      "status": "completed",
+      "referenceId": "MKT-CRIC-001",
+      "descriptionBn": "মার্কেট শেয়ার ক্রয়: বাংলাদেশ বনাম চ্যাম্পিয়ন্স ট্রফি (YES)",
+      "descriptionEn": "Bought YES contracts in ICC Champions Trophy",
+      "timestamp": "2026-10-29T01:16:06.219Z"
+    }
+  ],
+  "deposits": [
+    {
+      "id": "DEP-8901",
+      "userId": "USR-TRADER-201",
+      "userName": "Shahanur Islam (Pro Trader)",
+      "userEmail": "mdshahanurislam397@gmail.com",
+      "amount": 5000,
+      "method": "bkash",
+      "senderNumber": "01812345678",
+      "transactionId": "BK9A87X41Q",
+      "status": "confirmed",
+      "createdAt": "2026-10-27T13:16:06.219Z",
+      "reviewedAt": "2026-10-27T14:16:06.219Z",
+      "reviewedBy": "USR-ADMIN-100"
+    },
+    {
+      "id": "DEP-8902",
+      "userId": "USR-DEMO-305",
+      "userName": "Tanvir Hossain",
+      "userEmail": "tanvir.ahmed@example.com",
+      "amount": 3000,
+      "method": "nagad",
+      "senderNumber": "01987654321",
+      "transactionId": "NG77P291KM",
+      "status": "pending",
+      "createdAt": "2026-10-29T13:01:06.219Z"
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "WTH-4301",
+      "userId": "USR-DEMO-305",
+      "userName": "Tanvir Hossain",
+      "userEmail": "tanvir.ahmed@example.com",
+      "amount": 1000,
+      "method": "bkash",
+      "accountDetails": "01987654321 (Personal)",
+      "status": "pending",
+      "createdAt": "2026-10-29T12:46:06.219Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "sports",
+      "nameBn": "খেলাধুলা (Sports)",
+      "nameEn": "Sports",
+      "icon": "Trophy",
+      "order": 1,
+      "isActive": true,
+      "descriptionBn": "ক্রিকেট, ফুটবল ও অন্যান্য খেলাধুলার মার্কেট",
+      "descriptionEn": "Cricket, Football and athletic prediction markets"
+    },
+    {
+      "id": "news",
+      "nameBn": "সংবাদ ও ঘটনা (News)",
+      "nameEn": "News",
+      "icon": "Newspaper",
+      "order": 2,
+      "isActive": true,
+      "descriptionBn": "জাতীয় ও আন্তর্জাতিক গুরুত্বপূর্ণ সংবাদ",
+      "descriptionEn": "National and international breaking news"
+    },
+    {
+      "id": "crypto",
+      "nameBn": "ক্রিপ্টোকারেন্সি (Crypto)",
+      "nameEn": "Crypto",
+      "icon": "Bitcoin",
+      "order": 3,
+      "isActive": true,
+      "descriptionBn": "বিটকয়েন, ইথারিয়াম ও ক্রিপ্টো প্রেডিকশন",
+      "descriptionEn": "Bitcoin, Ethereum and crypto asset predictions"
+    },
+    {
+      "id": "politics",
+      "nameBn": "রাজনীতি (Politics)",
+      "nameEn": "Politics",
+      "icon": "Vote",
+      "order": 4,
+      "isActive": true,
+      "descriptionBn": "নির্বাচন ও রাজনৈতিক সমীকরণ",
+      "descriptionEn": "Elections and geopolitical forecasting"
+    },
+    {
+      "id": "business",
+      "nameBn": "ব্যবসা ও বাণিজ্য (Business)",
+      "nameEn": "Business",
+      "icon": "TrendingUp",
+      "order": 5,
+      "isActive": true,
+      "descriptionBn": "অর্থনীতি, শেয়ারবাজার ও ব্যবসা",
+      "descriptionEn": "Economy, stocks, and business events"
+    },
+    {
+      "id": "technology",
+      "nameBn": "প্রযুক্তি ও এআই (Tech & AI)",
+      "nameEn": "Tech & AI",
+      "icon": "Cpu",
+      "order": 6,
+      "isActive": true,
+      "descriptionBn": "এআই, স্মার্টফোন ও মহাকাশ বিজ্ঞান",
+      "descriptionEn": "Artificial intelligence, tech launches and space"
+    },
+    {
+      "id": "entertainment",
+      "nameBn": "বিনোদন ও সিনেমা (Entertainment)",
+      "nameEn": "Entertainment",
+      "icon": "Film",
+      "order": 7,
+      "isActive": true,
+      "descriptionBn": "সিনেমা, বক্স অফিস ও অ্যাওয়ার্ড",
+      "descriptionEn": "Movies, box office, awards and pop culture"
+    },
+    {
+      "id": "custom",
+      "nameBn": "বিশেষ মার্কেট (Special)",
+      "nameEn": "Special Events",
+      "icon": "Sparkles",
+      "order": 8,
+      "isActive": true,
+      "descriptionBn": "বিশেষ ও কাস্টম প্রেডিকশন ইভেন্ট",
+      "descriptionEn": "Custom and community prediction markets"
+    }
+  ],
+  "settings": {
+    "tradingFeePercent": 1.5,
+    "cancellationFee": 0,
+    "platformFeePercent": 2,
+    "minDeposit": 100,
+    "minWithdrawal": 200,
+    "currencySymbol": "৳",
+    "currencyCode": "BDT",
+    "isMaintenance": false,
+    "announcementBn": "NexusMarket-এ স্বাগতম! বিশ্বমানের প্রেডিকশন মার্কেটে অংশ নিন এবং সঠিক পূর্বাভাসের মাধ্যমে উপার্জন করুন।",
+    "announcementEn": "Welcome to NexusMarket! Trade your opinions on real-world events and win.",
+    "depositNumbers": {
+      "bkash": "01899-234567 (Personal)",
+      "nagad": "01711-987654 (Merchant)",
+      "rocket": "01912-345678-9 (Personal)",
+      "bank": "Nexus Bank Ltd | A/C: 1045-8902-3401 | Branch: Motijheel, Dhaka",
+      "crypto": "USDT (TRC20): TQn9Y2khEsLJW1ChV8mD434bJ6c78LpxYw"
+    }
+  },
+  "auditLogs": [
+    {
+      "id": "LOG-1",
+      "adminId": "USR-ADMIN-100",
+      "action": "SYSTEM_BOOT",
+      "details": "NexusMarket Database initialized with production seed data.",
+      "timestamp": "2026-10-29T13:16:06.219Z"
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+
+NexusMarket — সম্পূর্ণ ওয়েবসাইটের ফিচার ও সিস্টেম পরিকল্পনা
+১. ওয়েবসাইটের পরিচিতি
+ওয়েবসাইটের নাম: NexusMarket
+ওয়েবসাইটের ধরন: Prediction Market ও Trading Platform
+অনুপ্রেরণা: Polymarket-ধাঁচের YES/NO মার্কেট সিস্টেম।
+ভাষা: বাংলা ও English।
+ডিজাইন: Premium, Modern, Responsive, Mobile-Friendly এবং Smooth Animation।
+প্ল্যাটফর্ম: Android, iPhone, Tablet ও Desktop Browser।
+ওয়েবসাইটে দুটি আলাদা প্যানেল থাকবে: ১. User Panel ২. Admin Panel
+দুটি প্যানেলের কোড ও ইন্টারফেস আলাদা হবে, কিন্তু উভয় প্যানেল একই Backend API ও Database ব্যবহার করবে। ফলে অ্যাডমিন প্যানেলে কোনো পরিবর্তন করলে তা User Panel-এ স্বয়ংক্রিয়ভাবে আপডেট হবে।
+
+২. User Panel — Home Page
+Home Page হবে প্রিমিয়াম এবং সহজে ব্যবহারযোগ্য।
+Home Page-এ থাকবে:
+NexusMarket Logo ও Website Name।
+Search Bar।
+Sports, News, Crypto, Politics এবং অন্যান্য Category।
+Trending Markets।
+Popular Markets।
+New Markets।
+Closing Soon Markets।
+Live Market Status।
+YES ও NO অপশন।
+Probability Percentage।
+Trading Volume।
+Market Closing Time।
+Market Search ও Filter।
+Notification Icon।
+User Profile Icon।
+Wallet Balance।
+Language Switcher।
+Dark/Light Theme।
+Three-Dot Settings Menu।
+ব্যবহারকারী লগইন ছাড়াই মার্কেট দেখতে পারবে, কিন্তু ট্রেড করতে হলে অবশ্যই অ্যাকাউন্টে লগইন করতে হবে।
+৩. Market Categories
+ওয়েবসাইটে প্রাথমিকভাবে নিচের ক্যাটাগরি থাকবে:
+১. Sports ২. News ৩. Crypto ৪. Politics ৫. Business ৬. Technology ৭. Entertainment ৮. Custom Categories
+প্রতিটি ক্যাটাগরিতে অ্যাডমিন নতুন নতুন প্রশ্ন বা মার্কেট তৈরি করতে পারবে।
+অ্যাডমিন ক্যাটাগরির নাম, ছবি, আইকন, ক্রম ও বিবরণ পরিবর্তন করতে পারবে। প্রয়োজন অনুযায়ী ক্যাটাগরি নিষ্ক্রিয় বা ডিলিট করা যাবে। কোনো ক্যাটাগরির সঙ্গে পুরোনো মার্কেট যুক্ত থাকলে সেই রেকর্ডের ইতিহাস নষ্ট না করে নিরাপদভাবে আর্কাইভ করতে হবে।
+৪. Market Questions ও YES/NO System
+প্রতিটি প্রশ্নের জন্য আলাদা Market Detail Page থাকবে।
+উদাহরণ:
+SPORTS: প্রশ্ন: আজকের ম্যাচে কোন দল জিতবে? Option A: Spain Option B: Portugal
+NEWS: প্রশ্ন: নির্দিষ্ট নির্বাচনে Donald Trump কি জয়ী হবেন? Option A: YES Option B: NO
+CRYPTO: প্রশ্ন: নির্ধারিত সময়ের মধ্যে Bitcoin কি $2,000 বৃদ্ধি পাবে? Option A: YES Option B: NO
+প্রতিটি প্রশ্নের ক্ষেত্রে নির্দিষ্ট শর্ত, সময়সীমা, ফলাফল যাচাইয়ের উৎস ও Resolution Rules থাকবে।
+প্রতিটি Market Card-এ থাকবে:
+প্রশ্নের শিরোনাম।
+Market Image বা Icon।
+Category।
+YES/NO Price।
+YES/NO Probability।
+মোট Trading Volume।
+মোট Trade Count।
+Market Closing Time।
+Market Status।
+বিস্তারিত দেখার বাটন।
+YES/NO ট্রেড করার বাটন।
+Market Status হবে:
+Open
+Closed
+Pending Resolution
+Resolved
+Cancelled
+Disputed, যেখানে প্রযোজ্য।
+৫. Probability, Percentage ও Graph System
+প্রতিটি মার্কেটে Probability এবং Graph System থাকবে।
+ফিচারসমূহ:
+YES Probability Percentage।
+NO Probability Percentage।
+YES Price ও NO Price।
+Historical Price Chart।
+Live বা Realtime Chart Update।
+Total Trading Volume Chart।
+YES ও NO-তে কত টাকার অর্ডার বা ট্রেড হয়েছে তার আলাদা হিসাব।
+Last Updated Time।
+Market Liquidity।
+Order Book।
+Recent Trades।
+গ্রাফের লাইন মার্কেটের প্রকৃত মূল্য ও ট্রেডিং ডেটা অনুযায়ী উঠানামা করবে।
+কোনো একটি অপশনে বেশি টাকা ট্রেড হয়েছে বলেই তার জেতার সম্ভাবনা নিশ্চিতভাবে বেশি হবে না। Probability নির্ধারণে Order Book, Price, Liquidity এবং নির্বাচিত Pricing Model ব্যবহার করতে হবে।
+Demo Mode-এ তৈরি করা ডেটা থাকলে সেটিকে স্পষ্টভাবে Demo Data হিসেবে দেখাতে হবে।
+৬. Trading System
+ব্যবহারকারী YES বা NO নির্বাচন করে ট্রেড করতে পারবে।
+Trading Process: ১. ব্যবহারকারী একটি মার্কেট খুলবে। ২. YES অথবা NO নির্বাচন করবে। ৩. কত টাকার ট্রেড করবে তা লিখবে। ৪. অর্ডারের মূল্য ও পরিমাণ নির্বাচন করবে। ৫. সম্ভাব্য ফি ও ঝুঁকি দেখবে। ৬. অর্ডার নিশ্চিত করবে। ৭. সার্ভার অর্ডার যাচাই করে গ্রহণ করবে। ৮. বিপরীত উপযুক্ত অর্ডার পাওয়া গেলে Matching Engine ট্রেড সম্পন্ন করবে। ৯. সম্পন্ন ট্রেড Trade History-তে দেখা যাবে।
+Trading Features:
+Buyer vs Seller Order Book।
+Buy Order।
+Sell Order।
+Limit Order।
+Order Matching।
+Partial Fill।
+Full Fill।
+Open Orders।
+Filled Orders।
+Cancelled Orders।
+Expired Orders।
+Trade History।
+Position History।
+Average Entry Price।
+Realized Profit/Loss।
+Unrealized Profit/Loss, যেখানে প্রযোজ্য।
+Trading Fees।
+Settlement History।
+ট্রেডের পরিমাণ, অর্ডারের মূল্য ও ফি নিশ্চিত করার আগে দেখাতে হবে।
+অর্ডার গ্রহণ করার আগে সার্ভার ব্যালেন্স, মার্কেটের অবস্থা, অর্ডারের নিয়ম ও ব্যবহারকারীর অনুমতি যাচাই করবে।
+৭. Trade Cancellation System
+ব্যবহারকারী তার Open বা Unmatched Order বাতিল করতে পারবে।
+ফিচারসমূহ:
+Cancel Order Button।
+Cancellation Confirmation।
+Cancellation Fee Display।
+Cancellation Status।
+Cancelled Order History।
+Fee Transaction Record।
+বাতিল করার আগে প্রযোজ্য ফি ও ফেরতযোগ্য অর্থ দেখাতে হবে।
+শুধু নিয়ম অনুযায়ী অনুমোদিত অবস্থায় বাতিল ফি নেওয়া যাবে। ইতিমধ্যে সম্পন্ন বা Matched Trade-এর ক্ষেত্রে আলাদা নীতি প্রয়োজন।
+অর্ডার বাতিল হলে অব্যবহৃত Reserved Balance যথাযথভাবে ব্যবহারকারীর Available Balance-এ ফেরত যাবে।
+৮. Market Resolution ও Automatic Settlement
+মার্কেটের সময় শেষ হলে নতুন ট্রেড বন্ধ হবে।
+এরপর: ১. নির্ধারিত নির্ভরযোগ্য উৎস থেকে ফলাফল যাচাই করা হবে। ২. অনুমোদিত Resolution Workflow-এর মাধ্যমে ফলাফল নিশ্চিত হবে। ৩. মার্কেট Resolved হবে। ৪. Settlement Engine যোগ্য Position হিসাব করবে। ৫. প্রযোজ্য ফি হিসাব হবে। ৬. সার্ভারের Ledger-এ Settlement Entry তৈরি হবে। ৭. ব্যবহারকারীর যোগ্য পাওনা ও ওয়ালেটের ব্যালেন্স আপডেট হবে। ৮. ব্যবহারকারী Notification পাবে। ৯. Trade History ও Settlement History আপডেট হবে।
+একই মার্কেটের Settlement যেন একাধিকবার না হয়, তার জন্য Idempotency ও Database Transaction ব্যবহার করতে হবে।
+ভুল ফলাফল, বিরোধ বা বাতিল মার্কেটের জন্য আলাদা নিয়ম থাকবে। পুরোনো Settlement নীরবে মুছে ফেলা বা পরিবর্তন করা যাবে না।
+৯. User Registration ও Login System
+অ্যাকাউন্ট তৈরি ও লগইনের জন্য Google/Gmail Authentication ব্যবহার করা হবে।
+ফিচারসমূহ:
+Google Sign-In।
+নতুন অ্যাকাউন্ট তৈরি।
+Login ও Logout।
+Email Verification।
+Session Management।
+Password Recovery, যেখানে প্রযোজ্য।
+Unique User ID।
+Secure Profile Update।
+Account Security।
+Login History, যেখানে প্রযোজ্য।
+নিয়ম:
+লগইন ছাড়া ট্রেড করা যাবে না।
+ইমেইল যাচাই ছাড়া Withdrawal অনুমোদন করা যাবে না।
+সার্ভার নিজে Verification Status যাচাই করবে।
+ব্যবহারকারীর ব্রাউজার থেকে পাঠানো Verification Flag বিশ্বাস করা যাবে না।
+প্রয়োজনে অতিরিক্ত পরিচয় যাচাই করতে হবে।
+Google Account-এর ইমেইল সরাসরি সাধারণ টেক্সট ফিল্ড দিয়ে পরিবর্তন করা যাবে না। ইমেইল পরিবর্তনের জন্য নিরাপদ Re-Verification Workflow থাকতে হবে।
+১০. User Profile System
+প্রতিটি ব্যবহারকারীর আলাদা Profile Page থাকবে।
+Profile Features:
+Profile Picture।
+Display Name।
+Unique User ID।
+Phone Number।
+Verified Email Status।
+Account Creation Date।
+Trading Statistics।
+Total Trade Count।
+Completed Trades।
+Win/Loss Statistics, যেখানে প্রযোজ্য।
+Net Profit/Loss।
+Referral Code।
+Referral History।
+Profile Privacy Settings।
+Edit Profile।
+Account Settings।
+ব্যবহারকারী নিজের নাম ও ছবি পরিবর্তন করতে পারবে।
+ফোন নম্বর পরিবর্তনের সময় প্রয়োজনীয় যাচাই করতে হবে। ব্যক্তিগত ইমেইল, ফোন নম্বর, Wallet Balance ও Private Transaction History অন্য ব্যবহারকারীদের দেখানো যাবে না।
+১১. Wallet System
+প্রতিটি ব্যবহারকারীর Wallet থাকবে।
+Wallet-এ দেখাবে:
+Available Balance।
+Reserved Balance।
+Pending Withdrawal।
+Total Deposits।
+Total Withdrawals।
+Trading Fees।
+Trading Profit/Loss।
+Settlement Credits।
+Transaction History।
+Wallet-এর হিসাব সার্ভার-নিয়ন্ত্রিত হবে।
+ব্যবহারকারীর ব্রাউজার বা Frontend থেকে সরাসরি ব্যালেন্স পরিবর্তন করা যাবে না।
+প্রতিটি আর্থিক পরিবর্তনের জন্য Ledger Entry থাকতে হবে। ব্যালেন্সের হিসাব নির্ভুল রাখার জন্য Atomic Database Transactions, Duplicate Prevention এবং Reconciliation ব্যবহার করতে হবে।
+১২. Deposit System
+ব্যবহারকারী Deposit Request করতে পারবে।
+Deposit Process: ১. ব্যবহারকারী পরিমাণ নির্বাচন করবে। ২. উপলভ্য অনুমোদিত পেমেন্ট পদ্ধতি নির্বাচন করবে। ৩. Deposit Request তৈরি হবে। ৪. Unique Transaction ID তৈরি হবে। ৫. ব্যবহারকারীর কাছে Processing বা Pending দেখাবে। ৬. পেমেন্ট যাচাই করা হবে। ৭. অ্যাডমিন বা অনুমোদিত পেমেন্ট সিস্টেম নিশ্চিত করবে। ৮. সফল যাচাইয়ের পর Wallet Ledger আপডেট হবে। ৯. ব্যবহারকারী Notification পাবে।
+Deposit Status:
+Processing
+Pending
+Confirmed
+Rejected
+Failed
+শুধু Deposit Request করলেই টাকা ব্যালেন্সে যোগ হবে না। পেমেন্ট সত্যিই যাচাই হওয়ার পর একবারই ক্রেডিট হবে।
+১৩. Withdraw System
+ব্যবহারকারী Withdraw Request করতে পারবে।
+Withdraw Process: ১. ইমেইল ভেরিফিকেশন যাচাই। ২. প্রয়োজনীয় পরিচয় যাচাই। ৩. Available Balance যাচাই। ৪. Withdraw Amount নির্বাচন। ৫. অনুমোদিত পেমেন্ট পদ্ধতি নির্বাচন। ৬. Withdrawal Request তৈরি। ৭. Requested Amount Reserve করা। ৮. অ্যাডমিন প্যানেলে Pending দেখানো। ৯. অ্যাডমিন অনুমোদন বা প্রত্যাখ্যান করবে। ১০. অনুমোদিত পেমেন্ট সম্পন্ন হলে Paid দেখানো হবে। ১১. ব্যবহারকারী Notification পাবে।
+Withdraw Status:
+Pending
+Approved
+Rejected
+Processing
+Paid
+Failed
+Withdrawal Reject হলে কারণ দেখাতে হবে এবং প্রযোজ্য অর্থ একবারই Available Balance-এ ফেরত দিতে হবে।
+Admin Approval এবং Actual Payout Completion আলাদা স্ট্যাটাস হিসেবে পরিচালনা করতে হবে।
+১৪. Transaction History
+প্রতিটি ব্যবহারকারীর Transaction History থাকবে।
+এতে দেখা যাবে:
+Transaction ID।
+Deposit Transaction।
+Withdrawal Transaction।
+Trade Entry।
+Trade Cancellation।
+Trading Fee।
+Settlement Credit।
+Settlement Debit।
+Refund।
+Wallet Adjustment।
+Transaction Amount।
+Date & Time।
+Status।
+Description।
+ব্যবহারকারী তার নিজের Transaction History দেখতে পারবে। অ্যাডমিন অনুমতি অনুযায়ী সব ব্যবহারকারীর হিসাব দেখতে পারবে।
+১৫. Leaderboard System
+Leaderboard-এ সর্বোচ্চ যাচাইকৃত Net Profit অনুযায়ী ব্যবহারকারীদের তালিকা দেখানো হবে।
+ফিচারসমূহ:
+Daily Leaderboard।
+Weekly Leaderboard।
+Monthly Leaderboard।
+All-Time Leaderboard।
+Rank।
+Profile Picture।
+Display Name।
+User ID, যদি প্রকাশযোগ্য হয়।
+Verified Net Profit।
+Trade Count।
+Win/Loss Statistics।
+ব্যবহারকারীর প্রোফাইলে ক্লিক করলে গত ২৪ ঘণ্টার ট্রেডের পরিসংখ্যান দেখা যাবে।
+Leaderboard-এ শুধু ডিপোজিট বা Trading Volume-এর ভিত্তিতে আয় নির্ধারণ করা যাবে না। ভুয়া ট্রেড, Test Accounts এবং অননুমোদিত কার্যক্রম বাদ দিতে হবে।
+ব্যবহারকারী চাইলে তার কিছু প্রোফাইল তথ্য গোপন রাখতে পারবে।
+১৬. Referral System
+প্রতিটি ব্যবহারকারীর জন্য Unique Referral Code থাকবে।
+Referral Features:
+Referral Link।
+Copy Referral Link।
+Total Referrals।
+Successful Referrals।
+Pending Referrals।
+Referral History।
+Eligible Bonus।
+Referral Transaction History।
+Referral Bonus-এর নিয়ম অ্যাডমিন কনফিগার করতে পারবে, যেখানে আইনগতভাবে অনুমোদিত।
+Self-Referral, Duplicate Accounts, Fake Referrals এবং Bonus Abuse প্রতিরোধ করতে হবে।
+একই Referral Event-এর জন্য একাধিকবার Bonus দেওয়া যাবে না।
+১৭. Language System
+ওয়েবসাইটে দুটি ভাষা থাকবে:
+১. বাংলা ২. English
+Language Switcher থাকবে Header অথবা Three-Dot Menu-তে।
+ভাষা পরিবর্তন করলে নিচের সব অংশ পরিবর্তিত হবে:
+Navigation।
+Categories।
+Market Questions।
+Buttons।
+Forms।
+Wallet।
+Deposit ও Withdrawal Status।
+Transaction History।
+Notifications।
+User Profile।
+Admin Panel।
+Error Messages।
+Confirmation Dialogs।
+ব্যবহারকারীর নির্বাচিত ভাষা সংরক্ষণ করতে হবে।
+১৮. Theme ও Animation System
+ওয়েবসাইটের ডিজাইন হবে Premium Fintech Style।
+Theme:
+Dark Mode।
+Light Mode।
+Premium Navy/Blue/Violet Accent।
+পরিষ্কার Typography।
+আধুনিক Cards।
+Professional Charts।
+Responsive Layout।
+Animation:
+Smooth Page Transition।
+Button Hover Effects।
+Card Hover Effects।
+Chart Transition।
+Loading Skeleton।
+Modal Animation।
+Notification Animation।
+Dropdown Animation।
+মোবাইল ডিভাইসে অ্যানিমেশন হালকা রাখতে হবে। Reduced Motion পছন্দ করা ব্যবহারকারীদের জন্য অ্যানিমেশন কমানোর ব্যবস্থা থাকবে।
+১৯. Three-Dot Menu
+User Panel-এর Three-Dot Menu-তে থাকবে:
+Profile।
+Edit Profile।
+Language।
+Theme।
+Referral।
+Trading History।
+Transaction History।
+Account Settings।
+Privacy।
+Security।
+Help & Support।
+Logout।
+Admin Panel-এ Three-Dot Menu থেকে অনুমোদন অনুযায়ী:
+Edit।
+Archive।
+View Details।
+Manage Status।
+Audit History।
+গুরুত্বপূর্ণ আর্থিক কাজের জন্য শুধু Three-Dot Menu-এর উপর নির্ভর না করে আলাদা Confirmation Dialog ব্যবহার করতে হবে।
+২০. Admin Panel — Dashboard
+Admin Panel আলাদা URL-এ থাকবে, যেমন /admin।
+Dashboard-এ থাকবে:
+Total Users।
+Active Users।
+Banned Users।
+Total Markets।
+Open Markets।
+Resolved Markets।
+Total Orders।
+Trading Volume।
+Pending Deposits।
+Pending Withdrawals।
+Platform Fees।
+Net Revenue।
+Recent Transactions।
+Recent Trades।
+System Alerts।
+সব তথ্য Database ও Backend থেকে আসবে। কোনো সংখ্যা শুধু ডিজাইন সুন্দর করার জন্য ভুয়া হিসেবে দেখানো যাবে না।
+২১. Admin User Management
+অ্যাডমিন ব্যবহারকারীকে বিভিন্নভাবে খুঁজতে পারবে:
+Exact User ID।
+Display Name।
+Email।
+Phone Number, অনুমোদিত অ্যাডমিনের জন্য।
+User Details Page-এ থাকবে:
+Profile Information।
+Account Status।
+Verification Status।
+Deposit History।
+Withdrawal History।
+Trade History।
+Transaction History।
+Referral History।
+Wallet Ledger।
+Account Creation Date।
+Audit Information।
+Admin Actions:
+Ban User।
+Unban User।
+Suspend Account।
+Review Account।
+View Transactions।
+View Trades।
+View Profile।
+প্রতিটি Ban বা Unban-এর কারণ ও Admin ID সংরক্ষণ করতে হবে।
+২২. Admin Market Management
+অ্যাডমিন নতুন Market তৈরি করতে পারবে।
+Market Creation Fields:
+Market Question।
+Category।
+Description।
+Thumbnail।
+YES/NO Options।
+Opening Time।
+Closing Time।
+Resolution Source।
+Resolution Rules।
+Market Status।
+অনুমোদিত Trading Fee।
+Risk Disclosure।
+Admin Actions:
+Create Market।
+Edit Market।
+Archive Market।
+Delete Eligible Draft।
+Pause Market।
+Close Market।
+Resolve Market।
+Review Dispute।
+যে মার্কেটে ট্রেড বা আর্থিক রেকর্ড রয়েছে, সেটি সরাসরি ডিলিট করে ইতিহাস নষ্ট করা যাবে না।
+২৩. Admin Category Management
+অ্যাডমিন:
+নতুন Category তৈরি করতে পারবে।
+Category Name পরিবর্তন করতে পারবে।
+Category Image ও Icon পরিবর্তন করতে পারবে।
+Category Description পরিবর্তন করতে পারবে।
+Category Order পরিবর্তন করতে পারবে।
+Category নিষ্ক্রিয় করতে পারবে।
+ব্যবহারযোগ্য Category Delete বা Archive করতে পারবে।
+Category Delete করলে পুরোনো মার্কেটের ইতিহাস নষ্ট করা যাবে না।
+২৪. Admin Deposit Management
+Admin Deposit Panel-এ থাকবে:
+Transaction ID।
+User ID।
+User Name।
+Deposit Amount।
+Payment Method।
+Payment Reference।
+Submitted Time।
+Payment Evidence, যেখানে প্রযোজ্য।
+Current Status।
+Admin Actions:
+View Details।
+Mark Pending।
+Confirm Verified Deposit।
+Reject Deposit।
+Add Rejection Reason।
+View Audit History।
+শুধু যাচাই করা Deposit Confirm করা যাবে। প্রতিটি Deposit একবারই Ledger-এ যোগ হবে।
+২৫. Admin Withdrawal Management
+Admin Withdrawal Panel-এ থাকবে:
+Withdrawal ID।
+User ID।
+User Name।
+Requested Amount।
+Payment Method।
+Destination Information, সীমিত অনুমতিতে।
+Requested Time।
+Verification Status।
+Current Status।
+Admin Actions:
+View Request।
+Approve।
+Reject।
+Mark Processing।
+Mark Paid after verified payout।
+Add Rejection Reason।
+View Transaction History।
+Withdrawal Approval এবং Payment Completion আলাদা ধাপ হবে। Duplicate Withdrawal Processing প্রতিরোধ করতে হবে।
+২৬. Admin Commission ও Fee Settings
+অ্যাডমিন নির্ধারিত অনুমোদিত সীমার মধ্যে ফি কনফিগার করতে পারবে।
+Fee Settings:
+Trading Fee Percentage।
+Cancellation Fee।
+Platform Fee।
+অন্যান্য অনুমোদিত Service Fee।
+প্রতিটি ফি:
+ব্যবহারকারীকে ট্রেডের আগে দেখাতে হবে।
+স্পষ্ট Calculation Method থাকতে হবে।
+কোন Transaction-এ প্রযোজ্য তা নির্ধারিত থাকতে হবে।
+Audit Log-এ পরিবর্তনের রেকর্ড রাখতে হবে।
+পুরোনো সম্পন্ন ট্রেডের ফি নীরবে পরিবর্তন করা যাবে না।
+নতুন Fee Setting সাধারণত ভবিষ্যতের যোগ্য ট্রেডে প্রযোজ্য হবে।
+২৭. Admin Wallet Adjustment
+অ্যাডমিনকে Wallet Adjustment-এর ব্যবস্থা দেওয়া যেতে পারে।
+তবে সরাসরি ব্যালেন্সের সংখ্যা এডিট না করে Adjustment Transaction তৈরি করতে হবে।
+Adjustment-এর জন্য:
+User ID।
+Adjustment Amount।
+Credit অথবা Debit।
+Reason।
+Admin ID।
+Timestamp।
+Unique Reference।
+Optional Second Approval।
+বড় অঙ্কের পরিবর্তনের জন্য দ্বিতীয় অনুমোদন রাখতে হবে।
+সব Adjustment Audit Log-এ সংরক্ষণ করতে হবে। পুরোনো Ledger Entry মুছে ফেলা বা পরিবর্তন করা যাবে না।
+২৮. Admin Trade Management
+Admin Trade Panel-এ থাকবে:
+Order ID।
+Trade ID।
+User ID।
+Market ID।
+YES/NO Position।
+Order Price।
+Order Quantity।
+Filled Quantity।
+Trading Fee।
+Order Status।
+Trade Time।
+Settlement Status।
+অ্যাডমিন ট্রেডের বিস্তারিত দেখতে ও অনুমোদিত প্রশাসনিক কাজ করতে পারবে।
+সন্দেহজনক ট্রেড তদন্ত করা যাবে। তবে অ্যাডমিন যেন ইচ্ছামতো নিজের সুবিধামতো ব্যবহারকারীর জয়-পরাজয় বা লাভ-ক্ষতির ফল পরিবর্তন করতে না পারে।
+যেকোনো সংশোধন আলাদা Reversal বা Adjustment Entry এবং Audit Trail-এর মাধ্যমে করতে হবে।
+২৯. Admin Leaderboard Management
+অ্যাডমিন:
+Daily Leaderboard দেখতে পারবে।
+Weekly Leaderboard দেখতে পারবে।
+Monthly Leaderboard দেখতে পারবে।
+User Profit Calculation যাচাই করতে পারবে।
+Suspicious Activity পরীক্ষা করতে পারবে।
+ভুল

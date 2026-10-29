@@ -1,0 +1,6 @@
+{
+  "name": "NexusMarket - Prediction Market & Trading Platform",
+  "description": "Polymarket-style prediction and event trading platform with live YES/NO markets, order matching, wallet ledger, and comprehensive admin control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
